@@ -100,7 +100,7 @@ CUDA_VISIBLE_DEVICES=$GPU_ID python tools/visualize.py \
 |Source|Target|Download Link|
 |:---:|:---:|:---:|
 |Cityscapes|FoggyCityscapes|TBD|
-|Kitti|Cityscapes|[TBD|
+|Kitti|Cityscapes|TBD|
 |Sim10k|Cityscapes|TBD|
 |Pascal VOC|Watercolor|TBD|
 |Pascal VOC|Clipart|TBD|
