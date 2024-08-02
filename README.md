@@ -9,7 +9,7 @@
 This is an official code implementation repository for ```Enhancing Source-Free Domain Adaptive Object Detection with Low-confidence Pseudo Label Distillation```, accepted to ```ECCV 2024```.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/2bdba342-f0d3-4de9-aadf-2604a75e95a2">
+  <img src="https://github.com/user-attachments/assets/0b18f570-7aed-4a05-a205-722fb052b80a">
 </p>
 
 ---
@@ -88,14 +88,12 @@ CUDA_VISIBLE_DEVICES=$GPU_ID python tools/test_main.py --eval-only \
 
 ## Visualize
 
-We provide visualization code
+We provide visualization code. We use our trained model to detect foggy cityscapes in the ```example image```.
 
-```bash
-CUDA_VISIBLE_DEVICES=$GPU_ID python tools/visualize.py \
---config-file configs/sfda/sfda_city2foggy.yaml \
---model-dir $WEIGHT_LOCATION \
---img_path $SAMPLE_LOCATION
-```
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/70769452-c522-4551-b46a-a0fec3d2aaf0", width="400">
+  <img src="https://github.com/user-attachments/assets/5b0803c4-3169-4812-b319-169a561b3807", width="400">
+</p>
 
 ---
 
