@@ -4,8 +4,6 @@
   <img src="https://img.shields.io/badge/arXiv-2407.13524-0096c7.svg?style=plastic" alt="arXiv">
 </a>
 
-> We are currently working on refactoring all the original code. Please wait for the final version. However, you can run the example code using the instructions below.
-
 This is an official code implementation repository for ```Enhancing Source-Free Domain Adaptive Object Detection with Low-confidence Pseudo Label Distillation```, accepted to ```ECCV 2024```.
 
 <p align="center">
@@ -74,9 +72,6 @@ target_munster_000110_000019_leftImg8bit_foggy_beta_0.02
 
 ## Execution
 
-> Currently, we only provide code and results with ResNet-50 backbone baselines.
-> We are planning to add VGG-16 backbone baselines and code.
-
 ### Test models
 
 ```bash
@@ -97,15 +92,15 @@ We provide visualization code. We use our trained model to detect foggy cityscap
 
 ---
 
-## Pretrained weights (LPLD)
+### Pretrained weights (LPLD)
 
 |Source|Target|Download Link|
 |:---:|:---:|:---:|
-|Cityscapes|FoggyCityscapes|TBD|
-|Kitti|Cityscapes|TBD|
-|Sim10k|Cityscapes|TBD|
-|Pascal VOC|Watercolor|TBD|
-|Pascal VOC|Clipart|TBD|
+|Cityscapes|FoggyCityscapes|[Google drive](https://drive.google.com/file/d/1dCRI95VUjB8GDdgd1eLRX1P-uQZVI_Lg/view?usp=sharing)|
+|Kitti|Cityscapes|[Google drive](https://drive.google.com/file/d/1HiDibBDigbNcL7XfghLW87r5MufArutN/view?usp=sharing)|
+|Sim10k|Cityscapes|[Google drive](https://drive.google.com/file/d/1-M0hKURPslgI9XtniVzZULi_SHkRud6D/view?usp=sharing)|
+|Pascal VOC|Watercolor|[Google drive](https://drive.google.com/file/d/1ShvXTtsaoxAVJrdu3EXpM-ao33jc5ChQ/view?usp=sharing)|
+|Pascal VOC|Clipart|[Google drive](https://drive.google.com/file/d/1y6woJCPTlaZgPrF3nv36MIK0nn8Yy28d/view?usp=sharing)|
 
 ---
 
