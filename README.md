@@ -6,10 +6,6 @@
 
 This is an official code implementation repository for ```Enhancing Source-Free Domain Adaptive Object Detection with Low-confidence Pseudo Label Distillation```, accepted to ```ECCV 2024```.
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/0b18f570-7aed-4a05-a205-722fb052b80a">
-</p>
-
 ---
 
 ## Installation and Environmental settings (Instructions)
@@ -67,15 +63,6 @@ target_munster_000110_000019_leftImg8bit_foggy_beta_0.02
 .
 .
 ```
-
----
-
-## Visualize
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/70769452-c522-4551-b46a-a0fec3d2aaf0", width="400">
-  <img src="https://github.com/user-attachments/assets/5b0803c4-3169-4812-b319-169a561b3807", width="400">
-</p>
 
 ---
 
