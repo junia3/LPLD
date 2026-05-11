@@ -63,6 +63,23 @@ target_munster_000110_000019_leftImg8bit_foggy_beta_0.02
 .
 .
 ```
+---
+
+### Test models
+
+```bash
+CUDA_VISIBLE_DEVICES=$GPU_ID python tools/test_main.py --eval-only \ 
+--config-file configs/sfda/sfda_city2foggy.yaml --model-dir $WEIGHT_LOCATION
+```
+
+---
+
+## Visualize
+
+<p align="center">
+  <img src="./assets/origin.png", width="400">
+  <img src="./assets/detected.png", width="400">
+</p>
 
 ---
 
